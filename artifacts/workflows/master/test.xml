@@ -1,0 +1,1 @@
+select *,'pharma_001' as customer_name,'omega-001' as study_id,'ppd_ctms' as source_system,'ppd_ctms' as src_schema,'deviation_validation' as src_table,cast(from_unixtime('1584443450') AS timestamp) as dq_start_timestamp, 1584443450502 as dq_run_id  from autogen_badData
